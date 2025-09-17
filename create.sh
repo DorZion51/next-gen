@@ -11,9 +11,6 @@ BRANCH="patch-$(date +%s)-$RANDOM"
 # Create new branch
 git checkout -b "$BRANCH"
 
-# Apply patch
-git apply patch-iac
-
 # Stage changes
 git add .
 
